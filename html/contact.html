@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact me</title>
+        <link rel='stylesheet' type='text/css' href='../css/contact.css'>
+        <meta charset="UTF-8">
+        <meta name="piano primo tn" content="piano lessons">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Jordan Haywood">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    </head>
+<body>
+    <div class="topnav">
+        <a href="./index.html">Home</a>
+        <a href="./meetJeanine.html">Meet Jeannine</a>
+        <a href="./aboutLessons.html">About Lessons</a>
+        <a href="./OnlineLessons.html">Online Lessons</a>
+        <a class="active" href="./contact.html">Contact</a>
+    </div>
+    <br>
+    <br>
+
+<div class="containerFormPage">
+    <h2 id="contactMe">Contact me</h2>
+    <div id="error_message"></div>
+
+    <form id="myForm" onsubmit="return validation()" action="./phpmailer/index.php" >
+  
+      <label for="name">Name</label>
+      <input type="text" id="name" name="firstname" placeholder="Your name..">
+  
+      <label for="email">E-mail</label>
+      <input type="text" id="email" placeholder="Your email address">
+                
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write your message here .." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+  <script type="text/javascript" src="./javascript/scripts.js"></script>
+
+</body>
+
+</html>
+
+

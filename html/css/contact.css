@@ -1,0 +1,106 @@
+
+body {
+background-image: url(../photos:videos/treebackground.jpg);
+background-color:#CCCCCC;
+background-position: center;
+background-size:cover;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size:18px;
+
+}
+
+
+.topnav {
+float: left;
+color:lightgrey;
+font-weight: bold;
+text-align: center;
+padding: 12px 20px;
+font-size: 18px;
+margin-right: 10px;
+border:1px solid grey;
+border-radius:10px;
+
+}
+.topnav a {
+color:lightslategrey;
+text-decoration:none;
+display:inline;
+padding-right:20px;
+}
+.topnav a:hover {
+border-radius:10px;
+color:cornflowerblue;
+font-size:20px;
+
+}
+.topnav a.active {
+background-color:cornflowerblue;
+border-radius:10px;
+color: white;
+}
+
+.containerFormPage {
+
+border-radius: 5px;
+background: rgba (rgba(245,245,245 ,0.5 ));
+padding:20px;
+width:50%;
+margin-top:8%;
+height:auto;
+text-align: center;
+}
+#contactMe {
+font-size: 2.2em;
+font-weight: bold;
+text-align:center;
+}
+input[type=text], select, textarea {
+width: 100%;
+padding:12px;
+border: 1px solid gray;
+border-radius:4px;
+box-sizing:border-box;
+margin-top:6px;
+margin-bottom:16px;
+resize:vertical;
+}
+input[type=submit] {
+background-color:whitesmoke;
+color:gray;
+padding: 12px 20px;
+border:0;
+border-radius: 4px;
+width:100%;
+cursor:pointer;
+
+}
+#error_message {
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align:center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+@media only screen and (max-width:640px){
+
+body {
+        width:100%;
+        font-size: 14px;
+        margin:0;
+}
+.topnav {
+        border: 2px solid gray;
+        font-size:20px;
+}
+.topnav a {
+        padding-right:30px;
+}  
+.containerFormPage {
+    margin-left:17%;
+    margin-top:15%;
+    margin-bottom:15%;
+}
+}

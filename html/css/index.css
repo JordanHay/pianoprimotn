@@ -1,0 +1,188 @@
+
+    body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    .topnav {
+        float: left;
+        color:lightgrey;
+        font-weight: bold;
+        text-align: center;
+        padding: 12px 20px;
+        font-size: 18px;
+        margin-right: 10px;
+        border:1px solid grey;
+        border-radius:10px;
+        
+        }
+        .topnav a {
+        color:lightslategrey;
+        text-decoration:none;
+        display:inline-element;
+        padding-right:20px;
+        margin-bottom:18px;
+        
+        
+        }
+        .topnav a:hover {
+        border-radius:10px;
+        color:cornflowerblue;
+        font-size:20px;
+        
+        
+        }
+        .topnav a.active {
+        background-color:cornflowerblue;
+        border-radius:10px;
+        color: white;
+        }
+
+        #thumbtack {
+            width:3%;
+            height:auto;
+            position:absolute;
+            right:10%;
+            top:1.5%;
+        }
+        #laneMusic {
+            width:6%;
+            height:3%;
+            position:absolute;
+            right:2%;
+            top:3%;
+        }
+        
+
+/*container classes below*/
+
+.container {
+    position:relative;
+    height:100%;
+    width:100%;
+
+}
+#headerImg {
+    width:100%;
+    height:100%;
+    top:10;
+    left:0;
+    border-radius:10px;
+    
+}
+
+.general {
+    text-align: center;
+    width:60%;
+    color:black;
+    margin-left:18%;
+}
+#grid {
+    margin-left: 8%;
+}
+.row {
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0 4px;
+    
+}
+.column {
+    flex:50%;
+    padding: 0 4px;
+
+}
+.column img {
+    width:300px;
+    height:300px;
+    margin-top: 8px;
+    vertical-align:middle;
+    
+}
+/* contact stuff */
+
+.containerForm {
+    border-radius: 5px;
+    background-color:whitesmoke;
+    padding:20px;
+    
+
+}
+
+#contactMe {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top:15%;
+    margin-left:35%;
+    
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding:12px;
+    border: 1px solid gray;
+    border-radius:4px;
+    box-sizing:border-box;
+    margin-top:6px;
+    margin-bottom:16px;
+    resize:vertical;
+}
+input[type=submit] {
+    background-color:whitesmoke;
+    color:gray;
+    padding: 12px 20px;
+    border:0;
+    border-radius: 4px;
+    width:100%;
+    cursor:pointer;
+    margin-bottom:100px;
+    
+    }
+    #error_message {
+        margin-bottom: 20px;
+        padding: 0px;
+        background: #fe8b8e;
+        text-align:center;
+        font-size: 14px;
+        transition: all 0.5s ease;
+    }
+    
+    @media only screen and (max-width:640px){
+
+        body {
+            width:100%;
+            font-size: 14px;
+            margin:0;
+        }
+        .topnav {
+            border: 2px solid gray;
+            font-size:20px;
+        }
+        .topnav a {
+            padding-right:30px;
+            
+          }
+                
+        #thumbtack {
+        width:7%;
+        height:auto;
+        top:9%;
+        right:17%;
+        }
+        #laneMusic {
+        width:11%;
+        height:auto;
+        top:10%;
+        right:5%;
+
+        }
+        .column img {
+            width:40%;
+            height:auto;
+        } 
+        
+        #contactMe {
+            width:80%;
+            margin-bottom:10%;
+        }   
+            
+        
+    }
+

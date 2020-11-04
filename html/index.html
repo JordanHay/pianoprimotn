@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' type='text/css' href='./css/index.css'>
+
+    <meta charset="UTF-8">
+    <meta name="piano primo tn" content="piano lessons">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Jordan Haywood">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Piano primo TN</title>
+</head>
+
+<body>
+    
+    <div class="topnav">
+        <a class="active" href="./index.html">Home</a>
+        <a href="./meetJeanine.html">Meet Jeanine</a>
+        <a href="./aboutLessons.html">About Lessons</a>
+        <a href="./OnlineLessons.html">Online Lessons</a>
+        <a href="./contact.html">Contact</a>
+    </div>
+    <br>
+    
+    <a href="https://www.thumbtack.com/tn/knoxville/piano-lessons-for-kids/piano-teacher/service/213800844984485076?utm_medium=web&utm_source=txt&surface=sp" target="_blank">
+    <img id="thumbtack" src="./photos:videos/thumbtack.png">
+    </a>
+    
+    <a href="https://www.lanemusic.com/teacherbios/jeannine-hines" target="_blank">
+      <img id="laneMusic" src="./photos:videos/laneMusic.png">
+      </a>
+  
+
+    <br>
+
+    <div class="container">
+        <div class="jumbotron"><img id="headerImg" src="../photos:videos/hands.jpg"</div>
+        
+    </div>
+    <br>
+    <br>
+    <div class="general">
+        <h2>
+          I teach students to play the piano at my home in Maryville, 
+           online or at Lane Music in Knoxville. I have students who perform at Federation Festival 
+           auditions, Knoxville Music Teachers auditions and in various competitions. I am certified 
+           by the Music Teachers National Association. I enjoy teaching students how to read music and 
+           enjoy playing it!
+              <br>
+          I take all precautions available during this time and disinfect the piano keys, music rack, 
+          pencils and doorknobs between lessons. All students will also be required to wear a mask.
+          Lessons start at 25 dollars per half hour.
+        </h2>
+    </div>
+    <br>
+    <br>
+    <div id="grid">
+    <div class="row">
+        <div class="column">
+          <img src="../photos:videos/grid1.jpg">
+          <img src="../photos:videos/grid2.jpg">
+          <img src="../photos:videos/grid3.jpg">
+          <img src="../photos:videos/grid4.jpg">
+        </div>
+        <div class="row">
+            <div class="column">
+              <img src="../photos:videos/grid5.jpg">
+              <img src="../photos:videos/grid6.jpg">
+              <img src="../photos:videos/grid7.jpg">
+              <img src="../photos:videos/grid8.jpg">
+            </div>
+            </div>
+            <div class="containerFormPage">
+              <h2 id="contactMe">Contact me</h2>
+              <div id="error_message"></div>
+          
+              <form id="myForm" onsubmit="return validation()" action="./phpmailer/index.php">
+            
+                <label for="name">Name</label>
+                <input type="text" id="name" name="firstname" placeholder="Your name..">
+            
+                <label for="email">E-mail</label>
+                <input type="text" id="email" placeholder="Your email address">
+                          
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write your message here .." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
+            </div>
+            <script type="text/javascript" src="./javascript/scripts.js"></script>
+                        
+        
+</body>
+
+</html>

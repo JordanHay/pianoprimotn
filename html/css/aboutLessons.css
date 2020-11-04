@@ -1,0 +1,100 @@
+
+    body {
+        background-image: url(../photos:videos/background.jpg);
+        background-color:#CCCCCC;
+        background-position: center;
+        background-size:cover;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    .topnav {
+  float: left;
+  color:lightgrey;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 18px;
+  margin-right: 10px;
+  border:1px solid grey;
+  border-radius:10px;
+  
+}
+.topnav a {
+    color:lightslategrey;
+    text-decoration:none;
+    display:inline;
+    padding-right:20px;
+}
+.topnav a:hover {
+  border-radius:10px;
+  color:cornflowerblue;
+  font-size:20px;
+
+}
+.topnav a.active {
+  background-color:cornflowerblue;
+  border-radius:10px;
+  color: white;
+}
+.titles{
+margin-top:18%;
+text-align: center;
+font-size:50px;
+margin-bottom:10%;
+}
+.firstDiv {
+  text-align: center;
+  
+}
+
+video {
+  width:33%;
+  height:auto;
+  margin-left:10%;
+}
+#smA {
+margin-left:15%;
+}
+#smN {
+margin-left:38%;
+}
+
+ 
+.methods .lesson-imgs {
+display:inline-block;
+vertical-align: top;    
+width:46%;
+}
+p {
+    display:inline-block;
+    width:46%;
+    max-width: 700px;
+    width:100%;
+    font-size:20px;
+    font-weight: bold;
+    
+
+}
+@media only screen and (max-width:640px){
+
+  body {
+      width:100%;
+      font-size: 14px;
+      margin:0;
+  }
+  .topnav {
+      border: 2px solid gray;
+      font-size:20px;
+  }
+  .topnav a {
+      padding-right:30px;
+      
+    }
+    .titles {
+      font-size:30px;
+      
+    }
+    .firstDiv {
+      margin-top:30%;
+    }
+  }
